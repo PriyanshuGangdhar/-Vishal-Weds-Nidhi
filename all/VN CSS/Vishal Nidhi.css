@@ -1,0 +1,72 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            overflow: hidden;
+        }
+        
+        body {
+            background: linear-gradient(45deg, #ff9aff, #ffde98, #1d57d6, #ffffff);
+            background-size: 400% 400%;
+            animation: gradientAnimation 15s ease infinite;
+        }
+        
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        #vido{
+            height: 550px;
+        }
+        
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        #error-message {
+            color: red;
+            font-weight: bold;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        #content {
+            text-align: center;
+            margin-top: 20px;
+            text-align: center;
+            color: white;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5); 
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        
